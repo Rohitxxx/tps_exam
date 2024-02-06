@@ -1,0 +1,33 @@
+.container{
+    position: absolute;
+    top: 20%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    width: inherit;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.signup input{
+    /* width: fit-content; */
+    margin:10px;
+    padding: 5px;
+    /* border-radius:4px ; */
+}
+.heading{
+    color:rgb(46, 46, 146);
+}
+.ques{
+    display: none;
+}
+.signup{
+    width: fit-content;
+}
+.circle{
+    padding:15px;
+    border: 2px solid rgb(118, 64, 172);
+    border-radius: 100px;
+}
